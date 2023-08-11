@@ -1,0 +1,179 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); */
+
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy-Bold", sans-serif;
+}
+
+.first-box {
+  width: fit-content;
+  /* background-color: red; */
+  margin: 0 auto;
+}
+
+.first-h1 {
+  margin-top: 70px;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+}
+
+.first-p {
+  margin: 24px 0px 63px 0px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+.second-box {
+  width: fit-content;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.left-box {
+  width: 312px;
+  height: 290px;
+  background-image: url(../image/mbp14-spacegray-select-202110\ 1.jpg);
+  background-size: cover;
+}
+
+.left-none-box{
+  width: 312px;
+  height: 290px;
+  background-image: url(../image/mbp14-silver-select-202110\ 1.jpg);
+  background-size: cover;
+}
+
+
+
+.right-box {
+  margin-left: 76px;
+}
+
+.second-h1 {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+}
+
+.bbb {
+  font-weight: 700;
+  font-size: 24px;
+  color: #0071e3;
+}
+
+.chost {
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000;
+  margin-top: 48px;
+}
+
+.first-top {
+  display: flex;
+  justify-content: center;
+  margin-top: 59px;
+}
+
+.blue-button {
+  width: 155px;
+  height: 42px;
+  color: white;
+  background: #0071e3;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  transition: 300ms;
+}
+
+.blue-button:hover {
+  background-color: #cfe7ff;
+  color: #797979;
+}
+
+.but {
+  margin-left: 11px;
+  background: #cfe7ff;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #797979;
+}
+
+.but:hover {
+  background-color: #0071e3;
+  color: white;
+}
+
+.first-bottom {
+  display: block;
+  margin: 39px auto;
+  width: 321px;
+}
+.btn2 {
+  padding: 0px 20px 0px 20px;
+  width: 321px;
+  height: 57px;
+  border: 2px solid #cfe7ff;
+  border-radius: 10px;
+  margin-top: 7px;
+  color: #000;
+  transition: 300ms;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn1 {
+  padding: 0px 200px 0px 20px;
+  width: 321px;
+  height: 57px;
+  border: 2px solid #007fff;
+  border-radius: 10px;
+  color: #000;
+  background-color: #fff;
+  transition: 300ms;
+}
+
+
+
+.first-bottom{
+  width: fit-content;
+  margin: 39px auto;
+}
+
+.btn2:hover{
+  border: 2px solid #007fff;
+}
+
+.btn1:hover {
+  border: 2px solid #cfe7ff;
+}
+
+.left-p {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+  text-align: left;
+}
+
+.left-p2 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #000000;
+}
+
+.none{
+  display: none;
+}
